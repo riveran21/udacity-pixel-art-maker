@@ -23,7 +23,7 @@ function makeGrid() {
   for (let y = 0; y < gridHeight; ++y) {
     var row = document.createElement('tr');
     canvas.appendChild(row);
-    for (let x = 0; x <= gridWidth; ++x) {
+    for (let x = 0; x < gridWidth; ++x) {
       var col = document.createElement('td');
       row.appendChild(col);
       // eventListener assigns color to background when cell clicked.
